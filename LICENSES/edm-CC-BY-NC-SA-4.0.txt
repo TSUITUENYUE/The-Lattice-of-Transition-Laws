@@ -1,0 +1,14 @@
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+src/lattice/models/edm_unet.py is vendored from NVlabs/edm (training/networks.py) and keeps
+NVIDIA's notice, which reads:
+
+Copyright (c) 2022, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This work is licensed under a Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License.
+You should have received a copy of the license along with this
+work. If not, see http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+The licence text is at https://creativecommons.org/licenses/by-nc-sa/4.0/. The file, and any work
+derived from it, may be used for non-commercial purposes only.

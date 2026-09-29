@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lattice"
+version = "1.0.0"
+description = "Code for the paper 'The Lattice of Transition Laws'"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Anonymous Authors" }]
+dependencies = [
+    "numpy>=1.24",
+    "torch>=2.1",
+    "torchvision>=0.16",
+    "pillow>=9.0",
+    "torch-fidelity>=0.3.0",
+    "diffusers>=0.30",
+    "safetensors>=0.4",
+    "huggingface_hub>=0.20",
+    "transformers>=4.40",
+    "accelerate>=0.30",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

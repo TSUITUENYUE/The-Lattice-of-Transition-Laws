@@ -1,0 +1,14 @@
+# The exact versions of the paper's runs (Python 3.11, CUDA 12.1). MAR and the video model run in
+# environments of their own, created by setup/prepare_mar.sh and setup/prepare_video.sh.
+torch==2.4.1
+torchvision==0.19.1
+numpy==2.4.4
+pillow==12.2.0
+torch-fidelity==0.4.0
+diffusers==0.31.0
+safetensors==0.8.0
+huggingface_hub==0.36.2
+transformers==4.57.6
+tokenizers==0.22.2  # tokenizers and accelerate: transformers' runtime dependencies as the runs had them
+accelerate==1.14.0
+pyarrow>=15  # setup/prepare_llada.sh reads the WikiText-103 test file
