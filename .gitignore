@@ -4,6 +4,5 @@ __pycache__/
 .venv/
 build/
 dist/
-data/
 outputs/
 .DS_Store
